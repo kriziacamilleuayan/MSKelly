@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import "./faq.css";
+import "./contact.css";
 
-class About extends React.Component {
+class Contact extends React.Component {
   render() {
     return (
       <>
         <Navbar />
         <div className="container">
-          <h1>FAQ</h1>
+          <h1>Contact</h1>
         </div>
         <Footer />
       </>
@@ -17,4 +17,4 @@ class About extends React.Component {
   }
 }
 
-export default About;
+export default Contact;

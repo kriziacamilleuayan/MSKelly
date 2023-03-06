@@ -5,14 +5,11 @@ import reportWebVitals from "./reportWebVitals";
 
 import App from "./App";
 import About from "./components/about";
+import Faq from "./components/faq";
+import Careers from "./components/careers";
+import Services from "./components/services";
+import Contact from "./components/contact";
 import "./index.css";
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
 
 const router = createBrowserRouter([
   {
@@ -25,19 +22,19 @@ const router = createBrowserRouter([
   },
   {
     path: "/faq",
-    element: <About />,
+    element: <Faq />,
   },
   {
     path: "/careers",
-    element: <About />,
+    element: <Careers />,
   },
   {
     path: "/services",
-    element: <About />,
+    element: <Services />,
   },
   {
     path: "/contact",
-    element: <About />,
+    element: <Contact />,
   },
 ]);
 

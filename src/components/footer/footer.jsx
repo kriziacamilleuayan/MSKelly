@@ -11,7 +11,7 @@ class Footer extends React.Component {
         <div className="footer">
           <Row>
             <Col>
-              <h1>Logo</h1>
+              <h1>MSKelly</h1>
             </Col>
             <Col>
               <div className="mid">

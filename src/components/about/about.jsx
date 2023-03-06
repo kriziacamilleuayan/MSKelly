@@ -8,7 +8,9 @@ class Faq extends React.Component {
     return (
       <>
         <Navbar />
-        about
+        <div className="container">
+          <h1>About</h1>
+        </div>
         <Footer />
       </>
     );

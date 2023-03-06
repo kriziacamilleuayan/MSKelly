@@ -12,7 +12,7 @@ class Navigation extends React.Component {
         <Container fluid>
           <Navbar.Brand href="#">
             <Link className="navlink" to={`/`}>
-              Logo
+              MSKelly
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

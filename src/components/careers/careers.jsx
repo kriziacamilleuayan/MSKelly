@@ -8,7 +8,9 @@ class Careers extends React.Component {
     return (
       <>
         <Navbar />
-        Careers
+        <div className="container">
+          <h1>Careers</h1>
+        </div>
         <Footer />
       </>
     );
