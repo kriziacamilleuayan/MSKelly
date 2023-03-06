@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 import "./navigation.css";
 
 class Navigation extends React.Component {
@@ -9,7 +10,11 @@ class Navigation extends React.Component {
     return (
       <Navbar sticky="top" bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#">Logo</Navbar.Brand>
+          <Navbar.Brand href="#">
+            <Link className="navlink" to={`/`}>
+              Logo
+            </Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -17,21 +22,21 @@ class Navigation extends React.Component {
               style={{ maxHeight: "100px" }}
               navbarScroll
             ></Nav>
-            <Nav.Link href="#action1" className="navlink">
+            <Link className="navlink" to={`/about`}>
               About
-            </Nav.Link>
-            <Nav.Link href="#action2" className="navlink">
+            </Link>
+            <Link className="navlink" to={`/faq`}>
               FAQ
-            </Nav.Link>
-            <Nav.Link href="#action2" className="navlink">
+            </Link>
+            <Link className="navlink" to={`/careers`}>
               Careers
-            </Nav.Link>
-            <Nav.Link href="#action2" className="navlink">
+            </Link>
+            <Link className="navlink" to={`/services`}>
               Our Services
-            </Nav.Link>
-            <Nav.Link href="#action2" className="navlink">
+            </Link>
+            <Link className="navlink" to={`/contact`}>
               Contact
-            </Nav.Link>
+            </Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>

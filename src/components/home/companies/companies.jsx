@@ -4,11 +4,7 @@ import { BsGeoAltFill } from "react-icons/bs";
 
 class Companies extends React.Component {
   render() {
-    return (
-      <>
-        <div>companies</div>
-      </>
-    );
+    return <>{/* <div>companies</div> */}</>;
   }
 }
 
