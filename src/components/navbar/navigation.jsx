@@ -7,7 +7,7 @@ import "./navigation.css";
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar sticky="top" bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">Logo</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

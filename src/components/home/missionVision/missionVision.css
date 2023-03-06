@@ -1,0 +1,13 @@
+.mission {
+  text-align: center;
+  padding: 10rem 20rem;
+}
+
+.mission > h1 {
+  color: #d1b034;
+}
+
+.vision {
+  text-align: center;
+  padding: 5rem;
+}

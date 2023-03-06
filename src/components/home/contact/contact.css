@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 0 0 2rem 0;
+}
+
+.contact {
+  width: 50%;
+  text-align: center;
+  padding: 2rem 0 5rem;
+}
+
+.title {
+  color: #d1b034;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #52929d;
+  padding-bottom: 1rem;
+}
+
+.icon {
+  padding-bottom: 1rem;
+}
+
+.contact p {
+  padding: 0;
+  margin: 0;
+}
